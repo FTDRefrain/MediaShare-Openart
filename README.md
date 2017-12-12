@@ -45,7 +45,7 @@ IPFS and the Blockchain are a perfect match! You can address large amounts of da
 # Website Link
 **https://www.bobbysoxer98.hasura-app.io/**
 
-# Available Ethereum addr 
+# Available Ethereum addr for testing
 
 
 ```
@@ -63,3 +63,16 @@ Available Accounts
 (9) 0xf6272f4e6330af9f366c69ef93945a2f13ab81c1
 
 ```
+
+# Getting Started with Ethereum and IPFS dev
+
+[IPFS](https://ipfs.io/)
+[Ethereum dev](https://www.ethereum.org/)
+[Writing Contracts](https://solidity.readthedocs.io/en/develop/)
+[Developing Apps](https://http://truffleframework.com/)
+
+# Future Plans
+
+- deploying it to Ethereum Real network
+- open IPFS to as much pin as possible to make it truly impossible to delete from the web
+- make a Gallery Section to view others content.
