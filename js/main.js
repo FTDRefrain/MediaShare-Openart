@@ -158,7 +158,7 @@ function drop_handler(ev) {
     web3 = new Web3(web3.currentProvider);
   } else {
     // set the provider you want from Web3.providers
-    web3 = new Web3(new Web3.providers.HttpProvider("http://35.154.100.236:8545"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://teamjugaad.tk:8545"));
   }
 
   var source = `
