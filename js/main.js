@@ -34,13 +34,13 @@ $(function () {
 //     }
 // };
 
-var ipfsHost = "http://localhost:8080";
+var ipfsHost = "http://13.126.70.24:8080";
 var selectedFile = undefined;
 
 function upload() {
 	const reader = new FileReader();
 	reader.onloadend = function () {
-		const ipfs = window.IpfsApi('localhost', 5001) // Connect to IPFS
+		const ipfs = window.IpfsApi('13.126.70.24', 5001) // Connect to IPFS
 		const buf = buffer.Buffer(reader.result) // Convert data into buffer
 		ipfs.files.add(buf, (err, result) => { // Upload buffer to IPFS
 			if (err) {
@@ -162,7 +162,7 @@ if (typeof web3 !== 'undefined') {
 	web3 = new Web3(web3.currentProvider);
 } else {
 	// set the provider you want from Web3.providers
-	web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+	web3 = new Web3(new Web3.providers.HttpProvider("http://13.126.70.24:8545"));
 }
 
 var myContract;
