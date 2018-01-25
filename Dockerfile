@@ -1,4 +1,7 @@
-FROM mdakram28/openart3
-EXPOSE 80
-
-ENTRYPOINT bash /root/openart/start.sh
+FROM node:latest
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY . /usr/src/app
+EXPOSE 3000
+RUN npm install lite-server -g
+CMD lite-server
