@@ -14,7 +14,7 @@ services:
 
   testrpc:
     image: trufflesuite/ganache-cli
-    entrypoint: node ./build/cli.node.js --unlock 
+    # entrypoint: node ./build/cli.node.js --unlock 
     ports: 
       - 8545:8545
 
